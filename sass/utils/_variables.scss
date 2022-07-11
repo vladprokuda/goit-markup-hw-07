@@ -1,0 +1,29 @@
+/* основной цвет текста : #212121; */
+/* вторичный цвет текста : #757575; */
+/* акцентный цвет текста : #2196F3; */
+/* заголовок : #FFFFFF; */
+/* футер вторичный цвет : rgba(255, 255, 255, 0.6); */
+/* бекграунд фон : #2F303A; */
+/* бекграунд кнопка main : #188CE8 */
+/* бекграунд секции команда : #F5F4FA */
+/* header border : #ECECEC */
+/* list-img border : #eeeeee */
+/* background btn portfolio : #f5f4fa  */
+/* link color : #AFB1B8 */
+/* background img : rgba(47, 48, 58, 0.8) */
+
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196f3;
+    --white-color: #ffffff;
+    --footer-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --background-fon: #2f303a;
+    --background-btn-main: #188ce8;
+    --background-section-four: #f5f4fa;
+    --portfolio-main-border: #ececec;
+    --list-img-border: #eeeeee;
+    --background-btn-portfoliio: #f5f4fa;
+    --link-color: #afb1b8;
+    --background-img: rgba(47, 48, 58, 0.8);
+}

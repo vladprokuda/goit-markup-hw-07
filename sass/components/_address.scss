@@ -1,0 +1,39 @@
+.address li+li {
+    margin-top: 9px;
+}
+
+.address .link-address {
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address .link-address:hover,
+.address .link-address:focus {
+    color: var(--accent-color);
+}
+
+.address .link {
+    color: var(--footer-secondary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}

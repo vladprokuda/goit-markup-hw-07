@@ -1,0 +1,85 @@
+.section-four {
+    background-color: var(--background-section-four);
+}
+
+.section-four-title {
+    margin-bottom: 50px;
+}
+
+.section-four-list {
+    display: flex;
+}
+
+.section-four-list .card+.card {
+    margin-left: 30px;
+}
+
+.section-four-list .card {
+    background-color: var(--white-color);
+    text-align: center;
+    width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-four-list .title {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.section-four-list .name {
+    padding: 30px 0;
+}
+
+.section-four p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.team-links-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-links-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-links-item+.team-links-item {
+    margin-left: 10px;
+}
+
+.soc-link {
+    color: var(--link-color);
+    width: 44px;
+    height: 44px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-link:hover,
+.soc-link:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+
+.team-soc-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}

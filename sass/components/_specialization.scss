@@ -1,0 +1,35 @@
+.section-three {
+    padding-top: 0;
+}
+
+.section-three-title {
+    margin-bottom: 50px;
+}
+
+.section-three-list {
+    display: flex;
+}
+
+.section-three-list li+li {
+    margin-left: 30px;
+}
+
+.section-three-list li {
+    position: relative;
+}
+
+.section-three-list p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--background-img);
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--white-color);
+}

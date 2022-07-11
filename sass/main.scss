@@ -1,0 +1,32 @@
+@import './utils/variables';
+@import './utils/reset';
+@import './utils/hidden';
+@import './utils/container';
+@import './utils/index-buttons';
+@import './utils/section-titles';
+@import './utils/portfolio-main-border';
+@import './utils/portfolio-buttons';
+
+// header
+@import './components/header';
+@import './components/header-logo';
+
+// index 
+@import './components/hero';
+@import './components/benefits';
+@import './components/specialization';
+@import './components/team';
+@import './components/clients';
+
+// portfolio
+@import './components/gallery';
+
+// footer
+@import './components/footer';
+@import './components/footer-logo';
+@import './components/address';
+@import './components/join';
+@import './components/subscribe';
+
+// modal
+@import './components/modal';
