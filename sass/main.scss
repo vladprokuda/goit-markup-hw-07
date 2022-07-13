@@ -1,11 +1,11 @@
 @import './utils/variables';
 @import './utils/reset';
 @import './utils/hidden';
-@import './utils/container';
-@import './utils/index-buttons';
-@import './utils/section-titles';
-@import './utils/portfolio-main-border';
-@import './utils/portfolio-buttons';
+@import './components/container';
+@import './components/index-buttons';
+@import './components/section-titles';
+@import './components/portfolio-main-border';
+@import './components/portfolio-buttons';
 
 // header
 @import './components/header';
